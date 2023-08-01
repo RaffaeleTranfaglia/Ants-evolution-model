@@ -14,4 +14,4 @@ In order to trigger the natural selection and the mechanism of evolution of the 
 
 
 ## Insatllation
-Open the cloned file with NetLogo.
+Open the file *Ants evolution.nlogo*, it is necessary having installed NetLogo.
