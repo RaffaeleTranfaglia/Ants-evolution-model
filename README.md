@@ -3,6 +3,18 @@ NetLogo model to simulate and analyze an environment where ants adapt and evolve
 It has been realised in NetLogo 6.3.0.  
 
 
+## Table of Contents
+1. [Description](#Description)
+   1.1 [Environment](#Environment)
+   1.2 [Agents](#Agents)
+   1.3 [System dynamics](#System-dynamics)
+2. [Usage](#Usage)
+   2.1 [Model interface](#Model-interface)
+   2.2 [Simulation example](#Simulatio-example)
+4. [Installation](#Insatllation)
+5. [Credits](#Credits)
+
+
 ## Description
 The system depicts a multi-agent model in which the various elements are able to evolve and adapt to the environment. The process of evolution is carried out using genetic algorithms. The mechanism of "Swarm intelligence" emerges, characterized by the presence of feedback (pheromone trails) and stochastic elements.  
 
