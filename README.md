@@ -11,7 +11,7 @@ The environment is formed by a two-dimensional grid of patches of pre-establishe
 Some patches play a special role.  
 - Nest patch: the ants' nest is the place were the food is brought, it is also the starting point for the agents.
 - Food patch: this kind of patch represents the nourishment source, there are three food sources in total and every 70 steps one source is replenished.
-- Pheromone patch: when they pick up food, agents release pheromone in the environment. In this way other agents, attracted by the pheromone trail, approach the food source.
+- Pheromone patch: when they pick up food, agents release a certain amount of pheromone in the environment. In this way other agents, attracted by the pheromone trail, approach the food source. Over time, the quantity of pheromone present on a patch evaporates.
 
 In order to trigger the natural selection and the mechanism of evolution of the species, the environment applies a selective pressure on the agents.  
 Properties of the breed (from the source code):
@@ -52,8 +52,22 @@ The system's capacity to adapt to the environment causes new generations of indi
 
 
 ## Usage
-Model interface:
-![Interface](https://github.com/RaffaeleTranfaglia/Ants-Evolution-model/Footage/blob/main/Evolution-interface.jpg?raw=true)
+### Model interface
+![Interface](Footage/Evolution-interface.png)
+
+Any parameter may be modified using the sliders and input boxes. In addition, there are some diagrams that help keeping track of all the aspects of the system.  
+Control buttons:
+- Setup &#8594; sets up the angents, environment and global variables.
+- Step &#8594; runs one step of the simulation.
+- Go &#8594; runs the simulation endlessly, it can be stopped if pressed again.
+
+### Simulation example
+Video of a simulation example: [Here](Footage/Ants-evolution-video.mp4).  
+
+#### Observation on the final simulation 
+The system has adapted to the environment and evolved. The agents with metabolism 1 and speed 2 are the ones most likely to survive, and all new generations will inherit these characteristics. It can be said that the system is in a state of stable equilibrium in the phase space. From the initial state, information has been lost. Termites with speed other than 2 and metabolism other than 1 can no longer exist.   
+In conclusion, by using only the crossover technique during reproduction, no alternative solutions are ever explored (as would be in the case of introduction of punctual mutation). Accordingly, as time passes, the agents that survive are only those with the appropriate characteristics, new generations then inherit only those.
+
 
 ## Insatllation
 Open the file *Ants evolution.nlogo*, it is necessary having installed NetLogo.
