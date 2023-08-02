@@ -3,7 +3,7 @@ NetLogo model to simulate and analyze an environment where ants adapt and evolve
 It has been realised in NetLogo 6.3.0.  
 
 
-## Table of Contents
+# Table of Contents
 1. [Description](#Description)  
    1.1 [Environment](#Environment)  
    1.2 [Agents](#Agents)  
