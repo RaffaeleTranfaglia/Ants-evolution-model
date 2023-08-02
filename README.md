@@ -11,7 +11,7 @@ It has been realised in NetLogo 6.3.0.
 2. [Usage](#Usage)  
    2.1 [Model interface](#Model-interface)  
    2.2 [Simulation example](#Simulation-example)  
-4. [Installation](#Insatllation)  
+4. [Installation](#Installation)  
 5. [Credits](#Credits)  
 
 
@@ -81,7 +81,7 @@ The system has adapted to the environment and evolved. The agents with metabolis
 In conclusion, by using only the crossover technique during reproduction, no alternative solutions are ever explored (as would be in the case of introduction of punctual mutation). Accordingly, as time passes, the agents that survive are only those with the appropriate characteristics, new generations then inherit only those.
 
 
-## Insatllation <a name="Installation"></a>
+## Installation <a name="Installation"></a>
 Open the file *Ants evolution.nlogo*, it is necessary having installed NetLogo.
 
 
