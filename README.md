@@ -65,9 +65,13 @@ Control buttons:
 Video of a simulation example: [Here](Footage/Ants-evolution-video.mp4).  
 
 #### Observation on the final simulation 
-The system has adapted to the environment and evolved. The agents with metabolism 1 and speed 2 are the ones most likely to survive, and all new generations will inherit these characteristics. It can be said that the system is in a state of stable equilibrium in the phase space. From the initial state, information has been lost. Termites with speed other than 2 and metabolism other than 1 can no longer exist.   
+The system has adapted to the environment and evolved. The agents with metabolism 1 and speed 2 are the ones most likely to survive, and all new generations will inherit these characteristics. It can be said that the system is in a state of stable equilibrium in the phase space. From the initial state, information has been lost. Ants with speed other than 2 and metabolism other than 1 can no longer exist.   
 In conclusion, by using only the crossover technique during reproduction, no alternative solutions are ever explored (as would be in the case of introduction of punctual mutation). Accordingly, as time passes, the agents that survive are only those with the appropriate characteristics, new generations then inherit only those.
 
 
 ## Insatllation
 Open the file *Ants evolution.nlogo*, it is necessary having installed NetLogo.
+
+
+## Credits
+
