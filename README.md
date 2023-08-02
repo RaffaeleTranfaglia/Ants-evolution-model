@@ -15,7 +15,7 @@ It has been realised in NetLogo 6.3.0.
 5. [Credits](#Credits)  
 
 
-<a name="Description"></a>
+<a name="Description"/>
 ## Description
 The system depicts a multi-agent model in which the various elements are able to evolve and adapt to the environment. The process of evolution is carried out using genetic algorithms. The mechanism of "Swarm intelligence" emerges, characterized by the presence of feedback (pheromone trails) and stochastic elements.  
 
