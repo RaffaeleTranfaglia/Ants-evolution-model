@@ -53,8 +53,7 @@ The system's capacity to adapt to the environment causes new generations of indi
 
 ## Usage
 Model interface:
-![Interface](https://github.com/RaffaeleTranfaglia/Ants-Evolution-model/blob/main/Footage/Evolution-interface.jpg?raw=true)
-
+![Interface](https://github.com/RaffaeleTranfaglia/Ants-Evolution-model/Footage/blob/main/Evolution-interface.jpg?raw=true)
 
 ## Insatllation
 Open the file *Ants evolution.nlogo*, it is necessary having installed NetLogo.
