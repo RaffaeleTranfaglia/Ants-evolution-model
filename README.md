@@ -1,18 +1,18 @@
-# Ants-Evolution-model
+# Ants-evolution-model
 NetLogo model to simulate and analyze an environment where ants adapt and evolve.  
 It has been realised in NetLogo 6.3.0.  
 
 
 ## Table of Contents
-1. [Description](#Description)  
-   1.1 [Environment](#Environment)  
-   1.2 [Agents](#Agents)  
-   1.3 [System dynamics](#System-dynamics)  
-2. [Usage](#Usage)  
-   2.1 [Model interface](#Model-interface)  
-   2.2 [Simulation example](#Simulation-example)  
-4. [Installation](#Insatllation)  
-5. [Credits](#Credits)  
+1. [Description](##Description)  
+   1.1 [Environment](###Environment)  
+   1.2 [Agents](###Agents)  
+   1.3 [System dynamics](###System-dynamics)  
+2. [Usage](##Usage)  
+   2.1 [Model interface](###Model-interface)  
+   2.2 [Simulation example](###Simulation-example)  
+4. [Installation](##Insatllation)  
+5. [Credits](##Credits)  
 
 
 ## Description
