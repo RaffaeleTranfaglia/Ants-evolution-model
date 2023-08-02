@@ -18,7 +18,7 @@ It has been realised in NetLogo 6.3.0.
 ## Description <a name="Description"></a>
 The system depicts a multi-agent model in which the various elements are able to evolve and adapt to the environment. The process of evolution is carried out using genetic algorithms. The mechanism of "Swarm intelligence" emerges, characterized by the presence of feedback (pheromone trails) and stochastic elements.  
 
-### Environment
+### Environment <a name="Environment"></a>
 The environment is formed by a two-dimensional grid of patches of pre-established dimensions.  
 Some patches play a special role.  
 - Nest patch: the ants' nest is the place were the food is brought, it is also the starting point for the agents.
@@ -37,7 +37,7 @@ patches-own
 ]
 ```
 
-### Agents
+### Agents <a name="Agents"></a>
 The agents are represented by the ants, each ant has a set of behaviors that allow interaction with the environment and with other agents. 
 Properties of the breed (from the source code):
 ```
@@ -53,7 +53,7 @@ turtles-own
 ```
 Every step, the age increase and the ant's stock is decreased by a value equal to the metabolism.  
 
-### System dynamics
+### System dynamics <a name="System-dynamics"></a>
 The behavior of the agents is detailed below.  
 - search food: An ant in the "empty" state (red) is searching for food in the environment. It explores the surrounding patches following the pheromone trail, during this search if the ant finds food it changes its status to "full" (orange) and pick up some.
 - return to nest: An ant in the "full" state (orange) is returning to the nest in order to drop off the food. While it is carrying the food it release pheromone. Whenever an agent deposit some food in the nest, its stock is replenished. Every agent return to the nest following the nest smell.
@@ -63,8 +63,8 @@ The behavior of the agents is detailed below.
 The system's capacity to adapt to the environment causes new generations of individuals to have the most environmentally adapted genes. This leads to a stable equilibrium situation.
 
 
-## Usage
-### Model interface
+## Usage <a name="Usage"></a>
+### Model interface <a name="Model-interface"></a>
 ![Interface](Footage/Evolution-interface.png)
 
 Any parameter may be modified using the sliders and input boxes. In addition, there are some diagrams that help keeping track of all the aspects of the system.  
@@ -73,7 +73,7 @@ Control buttons:
 - Step &#8594; runs one step of the simulation.
 - Go &#8594; runs the simulation endlessly, it can be stopped if pressed again.
 
-### Simulation example
+### Simulation example <a name="Simulation-example"></a>
 Video of a simulation example: [Here](Footage/Ants-evolution-video.mp4).  
 
 #### Observation on the final simulation 
@@ -81,9 +81,9 @@ The system has adapted to the environment and evolved. The agents with metabolis
 In conclusion, by using only the crossover technique during reproduction, no alternative solutions are ever explored (as would be in the case of introduction of punctual mutation). Accordingly, as time passes, the agents that survive are only those with the appropriate characteristics, new generations then inherit only those.
 
 
-## Insatllation
+## Insatllation <a name="Installation"></a>
 Open the file *Ants evolution.nlogo*, it is necessary having installed NetLogo.
 
 
-## Credits
+## Credits <a name="Credits"></a>
 *Learning and evolution of artificial systems* lectures of the computer science course at UniMoRe.
