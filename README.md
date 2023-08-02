@@ -74,4 +74,4 @@ Open the file *Ants evolution.nlogo*, it is necessary having installed NetLogo.
 
 
 ## Credits
-
+*Learning and evolution of artificial systems* lectures of the computer science course at UniMoRe.
